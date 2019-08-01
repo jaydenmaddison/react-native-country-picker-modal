@@ -134,7 +134,7 @@ export default class CountryPicker extends Component {
             : CountryPicker.renderImageFlag(cca2, imageStyle)}
 
         </View>
-        <Text style={{fontSize:16}}>{countryName}</Text>
+        <Text style={{fontSize:16, marginLeft: 0}}>{countryName}</Text>
       </View>
     )
   }
